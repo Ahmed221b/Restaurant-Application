@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/image_buy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="40dp"
+        android:padding="6dp"
+        android:text="Details"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="370dp"
+        android:layout_height="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_card1">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="400dp"
+                android:layout_height="260dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/burgger6"/>
+
+            <TextView
+                android:id="@+id/name__order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="268dp"
+                android:text="Chicken Burrger"
+                android:textColor="#D7151513"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageButton
+                android:id="@+id/add_btn"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="277dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/plus1" />
+
+            <TextView
+                android:id="@+id/countt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="264dp"
+                android:layout_marginTop="10dp"
+                android:text="0"
+                android:textColor="#A57D7D"
+                android:textSize="28sp" />
+
+            <ImageButton
+                android:id="@+id/minus_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/minus1" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="20"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Buy_dec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Price:$"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="65dp">
+
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/custom_add_to_cart"/>
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cart_iconn"
+                android:padding="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/add_cart"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="#00000000"
+                android:text="add To Cart"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

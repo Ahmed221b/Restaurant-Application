@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Order</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="textview">Write your survey</string>
+    <string name="inputsurvey">Text...</string>
+    <string name="rating">Rate restaurant</string>
+    <string name="btn">SUBMIT</string>
+
+    <string-array name="questions">
+        <item>Choose Question : </item>
+        <item>What is the address?</item>
+        <item>What are the phone numbers?</item>
+        <item>What are the working days?</item>
+        <item>What are the working hours?</item>
+        <item>What are its pages on FaceBook and Instagram?</item>
+        <item>How do you rate this restaurant?</item>
+    </string-array>
+
+    <string name="Royal_Red_Robin_Burger">Royal Red Robin Burger: Hardwood-smoked bacon and egg†, American cheese, lettuce, tomatoes and mayo.
+</string>
+    <string name="Pizza1">Go back to where it all began with the cheese and tomato base.</string>
+    <string name="Pizza2">The ultimate mix of Chicken together with Mushrooms,Red Onions,Green Peppers,fresh Tomatoes ,Olives and melting mozzarella cheese.</string>
+    <string name="Pizza3">Our famous combination of Beef Pepperoni, Juicy Beef, Mushrooms, Green Peppers, Onions, Black Olives and melting mozzarella cheese.</string>
+    <string name="Pizza4">One of our all time specialties. A meaty feast of Pepperoni, Mushrooms ,Black Olives, mozzarella cheese and tomato sauce.</string>
+    <string name="Pizza5">Mushrooms, Green Peppers, Fresh tomatoes, Onions, and BlackOlives Loaded on tomato base and topped with melting mozzarella cheese.</string>
+    <string name="Pizza6">A mouth-watering combination of prawns, Black Olives, Green Peppers and a touch of Garlic.</string>
+    <string name="Pizza7">A special triple blend of cheese with any two toppings of your choice.</string>
+    <string name="Pizza8">The Ultimate Seafood pizza! Generously Topped with a sea of prawns, Calamari, Parsley and a touch of Garlic.</string>
+    <string name="Pizza9">Ranch base sauce with grilled chicken pieces, topped with mushrooms slices , mixed with Mozzarella and chopped Jalapenos.</string>
+
+
+    <string name="Pizza11">99.99</string>
+    <string name="Pizza22">79.99</string>
+    <string name="Pizza33">29.99</string>
+    <string name="Pizza44">50.00</string>
+    <string name="Pizza55">99.99</string>
+    <string name="Pizza66">27.50</string>
+    <string name="Pizza77">200.00</string>
+    <string name="Pizza88">77.00</string>
+    <string name="Pizza99">30.00</string>
+
+
+    <string name="Burger1">Double cheese, caramelized onions, pickles, lettuce, mayo.</string>
+    <string name="Burger2">Portobello mushrooms, emmental cheese, rocket leaves, balsamic sauce.</string>
+    <string name="Burger3">Our famous combination of Beef Pepperoni, Juicy Beef, Mushrooms, Green Peppers, Onions, Black Olives and melting mozzarella cheese.</string>
+    <string name="Burger4">Consists of a hamburger, with the patty topped.</string>
+    <string name="Burger5">In the Upper Midwest, particularly Wisconsin, burgers are often made with a buttered bun.</string>
+    <string name="Burger6">Style of hamburger in which the bun is a compressed cake of rice.</string>
+    <string name="Burger7">Fishcake made mostly from salmon in the style of a hamburger.</string>
+    <string name="Burger8">Hamburger or cheeseburger prepared with one or more glazed doughnuts in place of the bun.</string>
+    <string name="Burger9">Typically prepared with ground, sliced or minced beefsteak meat. Additional meats are also used.</string>
+
+
+    <string name="Burger11">89.99</string>
+    <string name="Burger22">69.99</string>
+    <string name="Burger33">119.99</string>
+    <string name="Burger44">60.00</string>
+    <string name="Burger55">39.99</string>
+    <string name="Burger66">53.99</string>
+    <string name="Burger77">150.00</string>
+    <string name="Burger88">100.00</string>
+    <string name="Burger99">50.00</string>
+
+
+    <string name="drink1">made from pounded rice filled with ice cream.</string>
+    <string name="drink2">Philadelphia ice cream is churned with more air than its denser counterparts and has a fluffier texture.</string>
+    <string name="drink3">Sherbet is a fruit-based frozen dessert that contains dairy and no more than three percent milk fat.</string>
+    <string name="drink4">Falooda is an Indian version of a cold dessert that has its origin in Persian cuisine.</string>
+    <string name="drink5">It is made using milk, sugar, cream, and other ingredients that are stirred to take in air and at the same time cooled.</string>
+    <string name="drink6">Sugar water, mung beans, and condensed milk are commonly used as toppings for baobing.</string>
+    <string name="drink7">kulfi is made by slowly heating milk with spices, sugar, and nuts while constantly stirring.</string>
+    <string name="drink8">made with milk and sugar, and it typically doesn’t contain eggs.</string>
+    <string name="drink9">Typically prepared with ground, sliced or minced beefsteak meat. Additional meats are also used.</string>
+
+
+    <string name="drink11">3.00</string>
+    <string name="drink22">5.00</string>
+    <string name="drink33">9.99</string>
+    <string name="drink44">1.00</string>
+    <string name="drink55">15.00</string>
+    <string name="drink66">19.99</string>
+    <string name="drink77">150.00</string>
+    <string name="drink88">12.50</string>
+    <string name="drink99">25.00</string>
+
+
+    <string name="Sautéed_Shroom_Burger">Sautéed ‘Shroom Burger: Red’s pickle relish, red onions, pickles, lettuce, tomatoes, mayo and your choice of cheese.
+</string>
+    <string name="The_Impossible_Cheeseburger">The Impossible™ Cheeseburger: Garlic-and-Parmesan sautéed mushrooms with Swiss.
+</string>
+    <string name="Red_Robin_Gourmet_Cheeseburger">Red Robin Gourmet Cheeseburger: Plant-Based. Unbelievable Taste.
+A delicious, fire-grilled patty, made from plants
+</string>
+
+    <string name="Burnin_Love_Burger">Burnin’ Love Burger: Red’s pickle relish, red onions, pickles, lettuce, tomatoes, mayo and your choice of cheese.
+
+</string>
+
+</resources>

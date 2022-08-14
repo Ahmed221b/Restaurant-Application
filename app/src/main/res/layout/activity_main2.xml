@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/draw_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundblur"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2"
+        android:background="@drawable/backgroound">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:padding="6dp"
+            android:text="My Cart"
+            android:textColor="@color/white"
+            android:alpha="0.75"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rtyu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="140dp">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <TextView
+            android:id="@+id/price_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="530dp"
+            android:layout_marginBottom="10dp"
+            android:text="20"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="530dp"
+            android:layout_marginBottom="10dp"
+            android:text="Total Price: "
+            android:alpha="0.8"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="67dp"
+            android:layout_marginBottom="10dp"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginBottom="10dp"
+            android:text="Name:"
+            android:textColor="#FF5722"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/phone_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="0112233445566"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginBottom="10dp"
+            android:text="Phone:"
+            android:textColor="#FF5722"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/Table_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="530dp"
+            android:layout_marginBottom="10dp"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="530dp"
+            android:layout_marginBottom="10dp"
+            android:text="Table:"
+            android:textColor="#FF5722"
+            android:textSize="20sp" />
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="575dp"
+            android:background="@drawable/custom_button" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="570dp"
+            android:background="#00000000"
+            android:text="Cancel All"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="136dp"
+            android:layout_marginTop="582dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:src="@drawable/delete_all"
+            app:tint="#A52700" />
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="575dp"
+            android:background="@drawable/custom_pay" />
+
+        <Button
+            android:id="@+id/Pay"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="570dp"
+            android:background="#00000000"
+            android:text="Pay"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="583dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:src="@drawable/cart_iconn"
+            app:tint="#FFC107" />
+
+        <Button
+            android:id="@+id/menuBtn"
+            android:layout_width="40dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/ic_baseline_menu_24"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:rippleColor="#F1EDED" />
+
+    </RelativeLayout>
+
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_drawer_menu" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

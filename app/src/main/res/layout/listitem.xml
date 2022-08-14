@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context=".MainActivity3">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/order_name"
+                android:layout_width="400dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bigburgger1" />
+
+
+            <ImageView
+                android:id="@+id/Star_rating"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="215dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/star_rate1"
+                app:tint="#FF5722"/>
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/shop" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"
+                android:text="TextView"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/name_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="122dp"
+                android:text="TextView"
+                android:textSize="22dp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
