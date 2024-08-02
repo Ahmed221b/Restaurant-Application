@@ -24,16 +24,6 @@ This mobile application allows users to order food and make reservations at a sp
 - **Java**: JDK 8 or later
 - **Database**: SQLite
 
-## Installation
-1. **Download the App**:
-   - Download the app from the [Google Play Store](#) or [Apple App Store](#).
-
-2. **Install the App**:
-   - Follow the on-screen instructions to install the app on your device.
-
-3. **Open the App**:
-   - Launch the app from your home screen or app drawer.
-
 ## Usage
 1. **Browse the Menu**:
    - Navigate to the menu section to explore available dishes.
